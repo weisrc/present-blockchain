@@ -8,8 +8,7 @@
   "dependencies": {
     "@slidev/cli": "^0.29.2",
     "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*",
-    "live-slidev": "^0.0.3"
+    "@slidev/theme-seriph": "*"
   },
   "name": "blockchain-slidev"
 }

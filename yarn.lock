@@ -1649,15 +1649,6 @@ linkify-it@^3.0.1:
   dependencies:
     uc.micro "^1.0.1"
 
-live-slidev@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/live-slidev/-/live-slidev-0.0.3.tgz#749d4b73e62b53d4fe9317b7e0b42f76e8fc7c17"
-  integrity sha512-CnSU/KAbI1+DcPHb85B6zwZU6BNsP3uYpIPq8KiGsYIvpFsC/6BIpcqn47LlaHmA1vALAqEEAxpUw/OddyBiSw==
-  dependencies:
-    "@slidev/cli" "^0.29.2"
-    "@slidev/theme-default" "*"
-    "@slidev/theme-seriph" "*"
-
 local-pkg@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/local-pkg/-/local-pkg-0.4.1.tgz#e7b0d7aa0b9c498a1110a5ac5b00ba66ef38cfff"
