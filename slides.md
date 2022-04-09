@@ -6,7 +6,7 @@ highlighter: shiki
 lineNumbers: false
 info: |
   ## Présentation Blockchain
-  Code source ouverte sur [GitHub](https://github.com/weisrc/blockchain-presentation)
+  Code source ouverte sur [GitHub](https://github.com/weisrc/present-blockchain)
 ---
 
 # Blockchain
@@ -20,7 +20,7 @@ Présenté par Wei
 </div>
 
 <div class="abs-br m-6 flex gap-2">
-  <a href="https://github.com/weisrc/blockchain-presentation" target="_blank" alt="GitHub"
+  <a href="https://github.com/weisrc/present-blockchain" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
