@@ -1,0 +1,10 @@
+h1 {
+	background-color: #2b90b6;
+	background-image: linear-gradient(90deg, #1ea5d4 10%, #0ca 30%);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+	animation: colorRotate 0.5s linear 0s infinite;
+}
