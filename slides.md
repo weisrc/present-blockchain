@@ -226,7 +226,7 @@ E_{ncrypté} = 29 \therefore M_{essage} = 29^3 \pmod{33} = 2\\
 
 $$
 
-> Il y a également la [cryptography à courbe elliptique](https://fr.wikipedia.org/wiki/Cryptographie_sur_les_courbes_elliptiques) qui est de plus en plus en demande pour sa meilleur sécurité. [AES](https://fr.wikipedia.org/wiki/Advanced_Encryption_Standard) est un algorithme d'encryption symmétrique qui est plus performant.
+> Il y a également la [cryptographie à courbe elliptique](https://fr.wikipedia.org/wiki/Cryptographie_sur_les_courbes_elliptiques) qui est de plus en plus en demande pour sa meilleur sécurité. [AES](https://fr.wikipedia.org/wiki/Advanced_Encryption_Standard) est un algorithme d'encryption symmétrique qui est plus performant.
 ---
 
 # Sécurité décentralisée
@@ -385,7 +385,7 @@ layout: cover
 background: https://source.unsplash.com/collection/10041209/1920x1080
 ---
 
-# La grande faille
+# Les grandes failles
 
 <style>
 h1 {background-image: linear-gradient(90deg, #fff 10%, #fff 30%);}
