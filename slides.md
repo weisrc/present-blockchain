@@ -76,8 +76,8 @@ A[Bloc 0]
 
 | **Enregistré**                                | **Logique**         |
 | --------------------------------------------- | ------------------- |
-| Empreintre digital (Identité) `nombre`        | Hauteur `nombre`    |
-| Empreintre digital du bloc précédent `nombre` | Orphelin? `booléen` |
+| Empreinte digital (Identité) `nombre`        | Hauteur `nombre`    |
+| Empreinte digital du bloc précédent `nombre` | Orphelin? `booléen` |
 | Donnés de l'application `quelconque`          | Origine? `booléen`  |
 |                                               | Périmé? `booléen`   |
 |                                               | Vérifié? `booléen`  |
@@ -89,7 +89,7 @@ A[Bloc 0]
 ```mermaid {scale: 0.7}
 classDiagram
 class A{
-  empreintre: 2934
+  empreinte: 2934
   précédent: nul
   donnés: "salut"
 
@@ -100,7 +100,7 @@ class A{
 }
 
 class B {
-  empreintre: 5834
+  empreinte: 5834
   précédent: 2934
   donnés: "monde"
 
@@ -111,7 +111,7 @@ class B {
 }
 
 class B_périmé {
-  empreintre: 9788
+  empreinte: 9788
   précédent: 2934
   donnés: "méchant"
 
@@ -122,7 +122,7 @@ class B_périmé {
 }
 
 class C {
-  empreintre: 6745
+  empreinte: 6745
   précédent: 5834
   donnés: "!"
 
@@ -183,7 +183,7 @@ Comparaison avec l'authentication des applications centralisées:
 ```mermaid {scale: 0.9}
 sequenceDiagram
   Client->>Serveur: Nom et mot de passe
-  Serveur->>Serveur: Calculer l'empreintre du mot de passe
+  Serveur->>Serveur: Calculer l'empreinte du mot de passe
   Serveur->Base de donnés: Vérifier le client
   Serveur->>Client: Clé d'authentication ou TLS
   Client->>Serveur: Requête ou opération
@@ -323,7 +323,7 @@ layout: two-cols
 
 # Les fonctions de hachages
 
-Utilisé pour calculer les empreintres
+Utilisé pour calculer les empreintes
 
 - Mot de passe
 - Vérifier l'intégrité
@@ -354,7 +354,7 @@ url: https://www.desmos.com/calculator/hfy3wwphw1
 
 # Épreuve à force brute
 
-Ajouter un nombre au message pour que l'empreintre commence avec N zéros.
+Ajouter un nombre au message pour que l'empreinte commence avec N zéros.
 
 - Rend la tâche plus difficile
 - Essais et erreurs
